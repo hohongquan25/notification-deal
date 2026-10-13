@@ -1,0 +1,19 @@
+{
+  "name": "notification-deal",
+  "version": "1.0.0",
+  "description": "Theo dõi giá sản phẩm trên Lazada / TikTok Shop và báo qua Telegram khi giá giảm xuống mức mong muốn",
+  "type": "module",
+  "main": "src/cli.js",
+  "scripts": {
+    "check": "node src/cli.js check",
+    "watch": "node src/cli.js watch",
+    "login": "node src/cli.js login",
+    "list": "node src/cli.js list"
+  },
+  "engines": {
+    "node": ">=21"
+  },
+  "dependencies": {
+    "playwright-core": "^1.48.0"
+  }
+}
